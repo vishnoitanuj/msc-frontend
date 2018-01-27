@@ -28,6 +28,7 @@ License: Creative Commons Attribution 3.0 Unported
 			width: 100%;
 			display:block;
 			transition: top 0.3s;
+			z-index: 500;
 		}
 
 		#navbar1 a {
@@ -51,6 +52,17 @@ License: Creative Commons Attribution 3.0 Unported
 	<style>
 		.mySlides {display:none;}
 	</style>
+	<style>
+		.team-w3l1-img{
+			position: relative;
+			float: left;
+			width: 250px;
+			height: 250px;
+			background-position: 50% 50%;
+			background-repeat:   no-repeat;
+			background-size:     cover;
+		}
+	</style>
 <!-- /css -->
 <!-- js -->
 <script src="js/modernizr.min.js"></script>
@@ -67,21 +79,22 @@ License: Creative Commons Attribution 3.0 Unported
 	<!--<a href="#contact" class="page-scroll">Contact</a>-->
 <!--</div>-->
 <div class="navbar-wrapper">
-	<div id="navbar1" class="container">
+	<div class="container">
 		<nav class="navbar navbar-inverse navbar-static-top">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<button style="float: right !important;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
 				</div>
-				<div class="navbar-collapse collapse">
+				<div id="navbar1" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav cl-effect-7">
 						<a href="index.html" class="page-scroll">Home</a>
 						<a href="#about" class="page-scroll">About</a>
+						<a href="#posts" class="page-scroll">Posts</a>
 						<a href="#service" class="page-scroll">Events</a>
 						<a href="#gallery" class="page-scroll">Gallery</a>
 						<a href="#team" class="page-scroll">Team</a>
@@ -135,6 +148,7 @@ License: Creative Commons Attribution 3.0 Unported
 					<ul class="nav navbar-nav cl-effect-7">
 						<li class="active"><a href="index.html" class="page-scroll">Home</a></li>
 						<li><a href="#about" class="page-scroll">About</a></li>
+						<li><a href="#posts" class="page-scroll">Posts</a></li>
 						<li><a href="#service" class="page-scroll">Events</a></li>
 						<li><a href="#gallery" class="page-scroll">Gallery</a></li>
 						<li><a href="#team" class="page-scroll">Team</a></li>
@@ -186,36 +200,107 @@ License: Creative Commons Attribution 3.0 Unported
 </section>
 <!-- /about -->
 <!-- divider -->
-<section class="divider-wthree">
+<section class="divider-wthree" id="posts">
 	<div class="container">
-		<h3 class="text-center" data-aos="zoom-in">Cruising - Enjoy The Difference.</h3>
-		<p class="text-center" data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sem elit, finibus et egestas ut, condimentum ut neque.</p>
+		<h3 class="text-center" data-aos="zoom-in">Technical Post</h3>
+		<!--<p class="text-center" data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sem elit, finibus et egestas ut, condimentum ut neque.</p>-->
+		<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+			<div class="card card-inverse card-info">
+				<img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+				<div class="card-block">
+					<figure class="profile profile-inline">
+						<img  src="images/kunal.jpg" class="profile-avatar avatar-small" alt="">
+					</figure>
+					<h4 class="card-title">Tawshif Ahsan Khan</h4>
+					<div class="card-text">
+						Tawshif is a web designer living in Bangladesh.
+					</div>
+				</div>
+				<div class="card-footer">
+					<small>Last updated 3 mins ago</small>
+					<button class="btn btn-info float-right btn-sm"><a href="blogs.html">Read more</a></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+			<div class="card card-inverse card-info">
+				<img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+				<div class="card-block">
+					<figure class="profile profile-inline">
+						<img  src="images/kunal.jpg" class="profile-avatar avatar-small" alt="">
+					</figure>
+					<h4 class="card-title">Tawshif Ahsan Khan</h4>
+					<div class="card-text">
+						Tawshif is a web designer living in Bangladesh.
+					</div>
+				</div>
+				<div class="card-footer">
+					<small>Last updated 3 mins ago</small>
+					<button class="btn btn-info float-right btn-sm"><a href="blogs.html">Read more</a></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+			<div class="card card-inverse card-info">
+				<img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+				<div class="card-block">
+					<figure class="profile profile-inline">
+						<img  src="images/kunal.jpg" class="profile-avatar avatar-small" alt="">
+					</figure>
+					<h4 class="card-title">Tawshif Ahsan Khan</h4>
+					<div class="card-text">
+						Tawshif is a web designer living in Bangladesh.
+					</div>
+				</div>
+				<div class="card-footer">
+					<small>Last updated 3 mins ago</small>
+					<button class="btn btn-info float-right btn-sm"><a href="blogs.html">Read more</a></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+			<div class="card card-inverse card-info">
+				<img class="card-img-top" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+				<div class="card-block">
+					<figure class="profile profile-inline">
+						<img  src="images/kunal.jpg" class="profile-avatar avatar-small" alt="">
+					</figure>
+					<h4 class="card-title">Tawshif Ahsan Khan</h4>
+					<div class="card-text">
+						Tawshif is a web designer living in Bangladesh.
+					</div>
+				</div>
+				<div class="card-footer">
+					<small>Last updated 3 mins ago</small>
+					<button class="btn btn-info float-right btn-sm"><a href="blogs.html">Read more</a></button>
+				</div>
+			</div>
+		</div>
 	</div>
+	<h4 style="color: white; font-weight: bolder" class="text-right"><a href="posts.html">View More&rarr;</a></h4>
 </section>
 <!-- /divider -->
 <!-- services -->
 <section class="service-agileinfo" id="service">
 	<div class="container">
 		<h3 class="text-center" data-aos="zoom-in">Our Events</h3>
-		<div class="col-lg-3 col-md-3 col-sm-6" data-aos="flip-down">
+		<div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-down">
 			<img src="images/ship.png" alt="" class="img-responsive">
-			<h4 class="text-center">Lorem ipsum dolor</h4>
+			<h4 class="text-center">MS WEEK</h4>
 			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sem elit, finibus et egestas ut, condimentum ut neque.</p>
+			<button type="button" class="btn btn-success center-block"><a href="events.html">Know More</a></button>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-6" data-aos="flip-down">
+		<div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-down">
 			<img src="images/captain.png" alt="" class="img-responsive">
-			<h4 class="text-center">adipiscing elit</h4>
+			<h4 class="text-center">INSPIRUS</h4>
 			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sem elit, finibus et egestas ut, condimentum ut neque.</p>
+			<button type="button" class="btn btn-success center-block"><a href="events.html">Know More</a></button>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-6" data-aos="flip-down">
+		<div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-down">
 			<img src="images/anchor.png" alt="" class="img-responsive">
-			<h4 class="text-center">Aenean sem elit</h4>
+			<h4 class="text-center">RUMBLE</h4>
 			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sem elit, finibus et egestas ut, condimentum ut neque.</p>
-		</div>
-		<div class="col-lg-3 col-md-3 col-sm-6" data-aos="flip-down">
-			<img src="images/baggage.png" alt="" class="img-responsive">
-			<h4 class="text-center">condimentum ut</h4>
-			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sem elit, finibus et egestas ut, condimentum ut neque.</p>
+			<button type="button" class="btn btn-success center-block"><a href="events.html">Know More</a></button>
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -236,6 +321,7 @@ License: Creative Commons Attribution 3.0 Unported
 			<li data-aos="flip-down"><img src="images/gallery-img8.jpg" alt="" class="img-responsive"/></li>
 		</ul>
     </div>
+	<h4 style="color: white; font-weight: bolder" class="text-right"><a href="gallery.html">View More&rarr;</a></h4>
 </section>
 <!-- /gallery -->
 <!-- team -->
@@ -243,44 +329,71 @@ License: Creative Commons Attribution 3.0 Unported
 	<div class="container">
 		<h3 class="text-center">Meet Our Team</h3>
 		<div class="col-lg-3 col-md-3 col-sm-6 team-w3l1" data-aos="flip-right">
-			<img src="images/team-img1.jpg" alt="" class="img-responsive">
-			<h4>Johnny Blaze</h4>
+			<img src="images/rana.jpg" alt="PS Rana" class="team-w3l1-img">
+			<h4>Dr. PS Rana</h4>
+			<h5>Mentor</h5>
 			<ul class="social-icons1">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="http://psrana.com/" target="_blank"><i class="fa fa-globe"></i></a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6 team-w3l1" data-aos="flip-left">
-			<img src="images/team-img2.jpg" alt="" class="img-responsive">
-			<h4>Elizabeth</h4>
+			<img src="images/kunal.jpg" alt="gen-sec" class="team-w3l1-img">
+			<h4>Kunal Kishore</h4>
+			<h5>General Secretary</h5>
 			<ul class="social-icons1">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6 team-w3l2" data-aos="flip-right">
-			<img src="images/team-img3.jpg" alt="img06" class="img-responsive">
-			<h4>Max Payne</h4>
+			<img src="images/himanshu.jpg" alt="joint-sec" class="team-w3l1-img">
+			<h4>Himanshu Bansal</h4>
+			<h5>Joint-Secretary</h5>
 			<ul class="social-icons1">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6 team-w3l2" data-aos="flip-left">
-			<img src="images/team-img4.jpg" alt="img06" class="img-responsive">
-			<h4>Diana</h4>
+			<img src="images/harleen.jpg" alt="joint-sec" class="team-w3l1-img">
+			<h4>Harleen Kaur</h4>
+			<h5>Joint-Secretary</h5>
 			<ul class="social-icons1">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
 			</ul>
+		</div>
+	</div>
+		<div class="container">
+		<div class="col-lg-3 col-md-3 col-sm-6 team-w3l2" data-aos="flip-left">
+			<img src="images/sherry.jpg" alt="joint-sec" class="team-w3l1-img">
+			<h4>Sherry Ahuja</h4>
+			<h5>Joint-Secretary</h5>
+			<ul class="social-icons1">
+				<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			</ul>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 team-w3l2" data-aos="flip-left">
+			<img src="images/yash.jpg" alt="joint-sec" class="team-w3l1-img">
+			<h4>Yash Kapoor</h4>
+			<h5>Joint-Secretary</h5>
+			<ul class="social-icons1">
+				<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			</ul>
+		</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 team-w3l2" data-aos="flip-left">
+				<a href="team.html"><img style="padding: 10px 10px;" src="images/arrow.png" alt="next" class="team-w3l1-img">
+				<h3 style="font-size: 25px" class="text-center"><a href="team.html">Visit Team Page</a></h3></a>
+			</div>
 		</div>
 		<div class="clearfix"></div>	
 	</div>
@@ -349,10 +462,9 @@ License: Creative Commons Attribution 3.0 Unported
 		</div>
 		<div class="col-lg-4 col-md-4">
 			<ul class="social-icons2">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="https://www.facebook.com/msctiet/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.linkedin.com/company/13472709/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="mailto: msc@thapar.edu"><i class="fa fa-envelope"></i></a></li>
 			</ul>	
 		</div>
 		<div class="clearfix"></div>
@@ -373,7 +485,8 @@ License: Creative Commons Attribution 3.0 Unported
     function scrollFunction() {
         if (document.body.scrollTop > screen.width/2 || document.documentElement.scrollTop > screen.width/2) {
             document.getElementById("navbar1").style.top = "0";
-        } else {
+        }
+        else {
             document.getElementById("navbar1").style.top = "-50px";
         }
     }
