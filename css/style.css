@@ -796,7 +796,8 @@ section.footer-w3-agileits p.text-center a:hover  {
 /*-- /back to top --*/
 
 /*-- responsive design --*/
-@media (max-width:1600px) {
+@media (max-width:1600px)
+{
 section.banner-w3ls,#block  {
 	height: 776px;
 }
@@ -921,7 +922,7 @@ section.footer-w3-agileits p.text-center {
 }
 }
 
-@media (max-width:1024px) {
+@media (max-width:1026px) {
 	.overlay {
 	padding:0;
 }
